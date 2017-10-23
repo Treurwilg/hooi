@@ -1,0 +1,10 @@
+RewriteEngine on
+RewriteRule ^Contact/?$ contact.php [NC,L] # Handle requests for "Contact"
+RewriteRule ^Bezorgen/?$ bezorgen.php [NC,L] # Handle requests for "Bezorgen"
+RewriteRule ^Vlas/?$ vlas.php [NC,L] # Handle requests for "Vlas"
+RewriteRule ^Stro/?$ stro.php [NC,L] # Handle request for "Stro"
+RewriteRule ^Kruidenhooi/?$ kruidenhooi.php [NC,L] # Handle requests for "Kruidenhooi"
+RewriteRule ^Hooi-in-wikkelbalen/?$ hooiInWikkelbalen.php [NC,L] # handle requests for "Hooi-in-wikkelbalen"
+RewriteRule ^Hooi-in-balen/?$ hooiInBalen.php [NC,L] # Handle requests for "Hooi-in-balen"
+RewriteRule ^Hooi/?$ hooi.php [NC,L] # Handle requests for "Hooi"
+RewriteRule ^Home/?$ home.php [NC,L] # Handle requests for "Home", de home page.

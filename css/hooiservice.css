@@ -1,0 +1,198 @@
+.container-fluid {
+	position: absolute;
+	right: 0px;
+}
+
+body {
+	/*background-color: rgba(0,0,0, 0.5) ;*/
+	background-image: url("../fotoos/x01.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center center;
+	/*-webkit-filter: blur(5px);*/
+	background-size: cover;
+	line-height: 1;
+	/*font-size: 62.5%; /* BASISFORMAAT (62,5% = 10PX) */
+	}
+	
+	body {
+		font: 12px/20px "Tahoma", Arial, Helvetica, sans-serif;
+		font-size: 14px !important;
+		color: #30241b; 
+	}
+	
+	.center {
+		position: relative;
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 1176px;
+		opacity: 1.0;	
+		border-style: solid;
+		/*position: */
+      background: rgba(255,255,255,1);
+	}
+	
+	.col-sm-8 {
+		/* position: relative;*/
+    	border: 2px solid black;
+	}
+	
+	.afstand {
+		background: rgba(255,255,255,1);
+	}
+	
+	#afstand40 {
+		height: 40px;	
+	}	
+	
+	#afstand80 {
+		height: 80px;	
+	}
+	
+	#afstand2 {
+		height: 40px;	
+	}
+	
+	#afstand3 {
+		height: 40px;	
+	}
+	
+	h1 {
+		font-family: 'Walter Turncoat', 'Arial', cursive !important;
+		font-weight: normal;	
+		font-size: 24px;
+	}
+	
+	h2 {
+		font-family: 'Walter Turncoat', 'Arial', cursive !important;
+		font-weight: normal;	
+		font-size: 19px;
+	}
+	
+	h3 {
+		font-family: 'Walter Turncoat', 'Arial', cursive !important;
+		font-weight: normal;	
+		font-size: 15px;
+	}
+	
+	
+
+	
+	.fotobalk {
+		display: inline;	
+		padding-top: 50px;
+		padding-bottom: 50px;
+		padding-left: 50px;
+		padding-right: 0px;
+	}
+	
+	.fotobalk > img {
+		height: 248px;
+		width: 331px	
+	}
+	
+	#onderbalk {
+
+		min-height: 60px;
+		background-color: rgba(37,46,0,0.95);
+	}
+	
+	#footer-logo {
+		padding-bottom: 15px;
+		padding-top: 15px;
+		padding-left: 50px;
+	}
+	
+	#onderTekstBalk {
+		width: 1176px;
+		padding-left: 50px;
+		background-color: rgba(255,247,229,1);	
+	}
+	
+	#proefband1 {
+		background-color: #4d555a;
+	}
+	
+	#proefband2 {
+		background-color: #47372b;
+	}
+	
+	#proefband3 {
+		background-color: rgba(71,55,43,0.95);
+	}
+	
+	#proefband4 {
+		background-color: #f247372b;	
+	}
+	
+	#proefband5 {
+		background-color: #30241b;	
+	}
+	
+	#proefband6 {
+		background-color: rgba(255,247,229,1);	
+	}
+	
+	#proefband7 {
+		background-color: #d95e00;	
+	}
+	
+	#proefband8 {
+		background-color: #b55206;	
+	}
+	
+	#transparantebalk {
+		height: 40px;	
+	}
+	
+	.container-fluid {
+		position: relative;
+		z-index:1;
+		width: 1176px;
+		height: 100px;
+		margin-left: auto;
+		margin-right: auto;
+			
+	}
+	
+	.navbar.navbar-fixed-top{
+    width:64% !important;
+    margin:0px auto;
+    left:0;
+    right:0;
+    padding:0;
+}
+	
+
+	
+	.balk {
+		width: 1176px;
+		margin-left: auto;
+		margin-right: auto;
+	
+	}
+	
+	.balk1 {
+		width: 1176px;
+		margin-left: auto;
+		margin-right: auto;
+		padding-top: 120px;
+		padding-left: 50px;	
+	}
+	
+	.navbar .nav > li >a {
+		line-height: 100px;	
+	}
+	
+	#transparant {
+		opacity: 0.0;	
+	}
+
+	#navbarLogo {
+		padding-left: 20px;	
+	}
+	
+	#navbarcontent {
+		padding-right: 50px;	
+	}
+
