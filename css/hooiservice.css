@@ -91,7 +91,7 @@ body {
 		width: 331px	
 	}
 	
-	#onderbalk {
+	#onderbalk { /** footer */
 
 		min-height: 60px;
 		background-color: rgba(37,46,0,0.95);
@@ -194,5 +194,15 @@ body {
 	
 	#navbarcontent {
 		padding-right: 50px;	
+	}
+	
+	button {
+		font-family: "Arial Black", Gadget, sans-serif;
+		font-weight: 400;
+		font-size: 20px;
+		color: white;
+		width: 150px;
+		height: 45px;
+		background-color: #d95e00;	
 	}
 
