@@ -49,8 +49,8 @@ body {
 		height: 80px;	
 	}
 	
-	#afstand2 {
-		height: 40px;	
+	#afstand20 {
+		height: 10px;	
 	}
 	
 	#afstand3 {
@@ -82,14 +82,61 @@ body {
 		display: inline;	
 		padding-top: 50px;
 		padding-bottom: 50px;
-		padding-left: 50px;
+		padding-left: 45px;
 		padding-right: 0px;
 	}
 	
 	.fotobalk > img {
 		height: 248px;
-		width: 331px	
+		width: 331px;	
 	}
+	
+	.fotobalk1 {
+		padding-left: 45px;	
+	}
+	
+	.fotobalk2 {
+		display: inline;
+	}
+	
+	.fotobalk2 > img {
+		width: 260px; 
+		height: 368px;	
+		padding-left: 0px;
+		padding-top: 15px;
+		padding-bottom: 25px;
+	}
+	
+	.fotobalk3 > img {
+		width: 487px;
+		height: 365px;	
+		padding-left: 0px;
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+	
+	.fotobalk4 > img {
+		width: 409px;
+		height: 306px;	
+		padding-left: 0px;
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+	
+	.fotobalk5 > img {
+		width: 409px;
+		height: 272px;	
+		padding-left: 0px;
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+	
+	
+	.video {
+		padding-left: 45px;	
+	}
+	
+	
 	
 	#onderbalk { /** footer */
 
@@ -177,9 +224,39 @@ body {
 		margin-left: auto;
 		margin-right: auto;
 		padding-top: 120px;
-		padding-left: 50px;	
-	}
+		padding-left: 60px;
+    	display: block;
+ }
+ 
+ 	.balk2 {
+ 		width: 1176px;
+		margin-left: auto;
+		margin-right: auto;
+		padding-top: 0px;
+		padding-left: 60px;
+    	display: block;
+		 	
+ 	}
+ 	
+ 	.balk3 {
+		width: 1176px;
+		margin-left: auto;
+		margin-right: auto;
+		padding-top: 5px;
+		padding-bottom: 35px;
+		padding-left: 60px;
+    	display: block;
+ }
 	
+	.balk5 {
+		width: 1176px;
+		margin-left: auto;
+		margin-right: auto;
+		padding-top: 5px;
+		padding-bottom: 35px;
+		padding-left: 60px;
+    	display: block;
+ }
 	.navbar .nav > li >a {
 		line-height: 100px;	
 	}
@@ -205,4 +282,17 @@ body {
 		height: 45px;
 		background-color: #d95e00;	
 	}
+	
+	.navbar-nav > li:hover > .dropdown-menu {
+  display: block;
+}
+
+	#trekkerMetPakkenklem {
+		width: "410";
+		height: "307";
+		
+	}
+ 
+
+
 
