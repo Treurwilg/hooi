@@ -139,6 +139,29 @@ body {
 		padding-bottom: 15px;
 	}
 	
+	.fotobalk7 > img {
+		width: 444px;
+		height: 333px;	
+		padding-left: 0px;
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+	
+	.fotobalk8 > img {
+		width: 454px;
+		height: 340px;	
+		padding-left: 0px;
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+	
+	.fotobalk9 > img {
+		width: 442px;
+		height: 332px;	
+		padding-left: 0px;
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
 	
 	.video {
 		padding-left: 45px;	
