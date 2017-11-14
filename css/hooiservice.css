@@ -334,7 +334,48 @@ body {
 		height: "307";
 		
 	}
- 
+ /* -------------------------------------- */
+/* contactformulier */
+.blok {
+	display: block;
+}
 
+label {
+	margin-top: 20px;
+	letter-spacing: 2px;
+}
 
+/*Style the text boxes */
+input, textarea {
+	width: 439px;
+	height: 27px;
+}
 
+#human {
+	width: 27px;
+}
+
+textarea {
+	height: 213px;
+}
+
+.human {
+	display: inline;
+}
+
+#submit {
+	width: 218px;
+}
+
+#clear {
+	width: 218px;
+}
+
+#submit {
+	color: white;
+	background-color: #d95e00;
+}
+
+#submitblok {
+	padding-top: 15px;
+}

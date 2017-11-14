@@ -18,7 +18,27 @@
 			<p>E-mail:info@hooiservice.nl
 			</p>
 			<p></p>
-			<h1>Contactformulier</h1>
+			<h2>Contactformulier</h2>
+			<form id="theForm" method="post" action="index.php">
+
+				<label class="blok">Naam</label>
+				<input name="name" placeholder="Typ hier">
+
+
+				<label class="blok">E-mail</label>
+				
+				<input name="email" type="email" placeholder="Typ hier">
+
+				<label class="blok">Bericht</label>
+				<textarea name="message" placeholder="Typ hier"></textarea>
+
+				<label>Wat is 2+2? (Anti-spam)</label>
+				<input id="human" name="human">
+				<div id="submitblok">
+				<input id="submit" name="submit" type="submit" value="Inzenden">
+				<input id="clear" type="button" onclick="myFunction()" value="Schoon formulier">
+				</div>
+			</form>
 		</div>
 		<div class="col-sm-2">
 			<!-- afstandskolom -->		
