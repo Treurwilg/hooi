@@ -1,5 +1,5 @@
 <?php
-// bezorgen.php
+// contact.php
 include("global.php");
 
 class ActueelPage extends Page {

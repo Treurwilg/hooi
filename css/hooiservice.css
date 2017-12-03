@@ -1,6 +1,7 @@
-.container-fluid {
-	position: absolute;
-	right: 0px;
+@media (min-width: 1200px) {
+    .container{
+        max-width: 1080px;
+    }
 }
 
 body {
@@ -21,7 +22,7 @@ body {
 		color: #30241b; 
 	}
 	
-	.center {
+	/* .center {
 		position: relative;
 		margin-left: auto;
 		margin-right: auto;
@@ -30,7 +31,7 @@ body {
 		border-style: solid;
 		/*position: */
       background: rgba(255,255,255,1);
-	}
+	} */
 	
 	.col-sm-8 {
 		/* position: relative;*/
@@ -39,6 +40,14 @@ body {
 	
 	.afstand {
 		background: rgba(255,255,255,1);
+	}
+	
+	.kleur {
+		background: rgba(250,250,250,1);	
+	}
+	
+	.active {
+		background: rgba(240,240,240,1);	
 	}
 	
 	#afstand40 {
@@ -58,19 +67,19 @@ body {
 	}
 	
 	h1 {
-		font-family: 'Walter Turncoat', 'Arial', cursive !important;
+		font-family: 'Walter Turncoat', 'Arial';
 		font-weight: normal;	
 		font-size: 24px;
 	}
 	
 	h2 {
-		font-family: 'Walter Turncoat', 'Arial', cursive !important;
+		font-family: 'Walter Turncoat', 'Arial';
 		font-weight: normal;	
 		font-size: 19px;
 	}
 	
 	h3 {
-		font-family: 'Walter Turncoat', 'Arial', cursive !important;
+		font-family: 'Walter Turncoat', 'Arial';
 		font-weight: normal;	
 		font-size: 15px;
 	}
@@ -169,8 +178,8 @@ body {
 	
 	
 	
-	#onderbalk { /** footer */
-
+	#onderbalk { /* footer */
+		width: 1176px;
 		min-height: 60px;
 		background-color: rgba(37,46,0,0.95);
 	}
@@ -186,6 +195,12 @@ body {
 		padding-left: 50px;
 		background-color: rgba(255,247,229,1);	
 	}
+	
+	.producten li, .informatie li {
+		color: #d95e00;
+	}
+	
+	
 	
 	#proefband1 {
 		background-color: #4d555a;
@@ -223,6 +238,12 @@ body {
 		height: 40px;	
 	}
 	
+	/*
+.container-fluid {
+	position: absolute;
+	right: 0px;
+}	
+	
 	.container-fluid {
 		position: relative;
 		z-index:1;
@@ -242,12 +263,40 @@ body {
 }
 	
 
+
+
+	
+	#navbarLogo {
+		padding-left: 20px;	
+	}
+	
+	#navbarcontent {
+		padding-right: 50px;	
+	}
+	
+	*/
+	
+	/* .navbar */ .nav > li >a {
+		line-height: 100px;	
+	}
+	
+ 		.navbar-nav > li:hover > .dropdown-menu {
+  display: block;
+}
+
+#navbarcontent > li  a {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+/* .passive, .dropdown-toggle, .dropdown-menu{
+	margin-left: 0px;
+} */
 	
 	.balk {
-		width: 1176px;
+
 		margin-left: auto;
 		margin-right: auto;
-	
 	}
 	
 	.balk1 {
@@ -265,8 +314,7 @@ body {
 		margin-right: auto;
 		padding-top: 0px;
 		padding-left: 60px;
-    	display: block;
-		 	
+    	display: block;	 	
  	}
  	
  	.balk3 {
@@ -299,23 +347,11 @@ body {
     	display: block;
  } 
  
-	.navbar .nav > li >a {
-		line-height: 100px;	
-	}
-	
 	#transparant {
 		opacity: 0.0;	
 	}
 
-	#navbarLogo {
-		padding-left: 20px;	
-	}
-	
-	#navbarcontent {
-		padding-right: 50px;	
-	}
-	
-	button {
+	.buttonbig {
 		font-family: "Arial Black", Gadget, sans-serif;
 		font-weight: 400;
 		font-size: 20px;
@@ -325,15 +361,11 @@ body {
 		background-color: #d95e00;	
 	}
 	
-	.navbar-nav > li:hover > .dropdown-menu {
-  display: block;
-}
-
 	#trekkerMetPakkenklem {
 		width: "410";
 		height: "307";
-		
 	}
+	
  /* -------------------------------------- */
 /* contactformulier */
 .blok {
@@ -367,7 +399,7 @@ textarea {
 	width: 218px;
 }
 
-#clear {
+#schoon {
 	width: 218px;
 }
 
@@ -379,3 +411,11 @@ textarea {
 #submitblok {
 	padding-top: 15px;
 }
+
+.formSubscript {
+	font-style: italic;
+}
+
+/* ------------------------------------------- */
+
+

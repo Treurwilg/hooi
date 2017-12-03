@@ -7,4 +7,4 @@ RewriteRule ^Kruidenhooi/?$ kruidenhooi.php [NC,L] # Handle requests for "Kruide
 RewriteRule ^Hooi-in-wikkelbalen/?$ hooiInWikkelbalen.php [NC,L] # handle requests for "Hooi-in-wikkelbalen"
 RewriteRule ^Hooi-in-balen/?$ hooiInBalenBalk.php [NC,L] # Handle requests for "Hooi-in-balen"
 RewriteRule ^Hooi-info/?$ hooi-info.php [NC,L] # Handle requests for "Hooi-info"
-RewriteRule ^Home/?$ home.php [NC,L] # Handle requests for "Home", de home page.
+RewriteRule ^Welkom/?$ index.php [NC,L] # Handle requests for "Home", de home page.

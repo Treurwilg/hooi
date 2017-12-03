@@ -19,7 +19,7 @@
 			</p>
 			<p></p>
 			<h2>Contactformulier</h2>
-			<form id="theForm" method="post" action="index.php">
+			<form id="theForm" method="post" action="formProcessing.php">
 
 				<label class="blok">Naam</label>
 				<input name="name" placeholder="Typ hier">
@@ -36,16 +36,19 @@
 				<input id="human" name="human">
 				<div id="submitblok">
 				<input id="submit" name="submit" type="submit" value="Inzenden">
-				<input id="clear" type="button" onclick="myFunction()" value="Schoon formulier">
+				<input id="schoon" type="button" value="Schoon formulier" onclick="myFunction()">
 				</div>
 			</form>
+			<p></p>
+			<p class="formSubscript">Met vriendelijke groeten,</p>
+			<p class="formSubscript">Het team van Hooiservice.nl – Van der Zwaluw Hooi en Stro</p>
 		</div>
 		<div class="col-sm-2">
 			<!-- afstandskolom -->		
 		</div>
 		<div class="col-sm-4">
 			<h3>Producten</h3>
-			<ul>
+			<ul class="producten">
 				<li>Hooi</li>
 					<ul>
 						<li>Hooibalen te koop</li>

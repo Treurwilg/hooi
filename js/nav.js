@@ -1,4 +1,4 @@
-window.onload = function() {
+window.onload=function() {
 	var presentPage = window.location.href.split("/").pop();
 	var activeButton = document.getElementsByClassName("active");
 	activeButton[0].setAttribute("class", "passive");
@@ -13,7 +13,7 @@ window.onload = function() {
 		}
 	} else {
 		for (var i = 0; i < passive.length; i++) {	
-			if (passive[i].firstChild.href.split("/").pop() == "welkom") {
+			if (passive[i].firstChild.href.split("/").pop() == "Welkom") {
 				passive[i].setAttribute("class", "active");	
 			}
 		}
