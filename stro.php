@@ -11,7 +11,6 @@ class ActueelPage extends Page {
 		echo file_get_contents("html/stroInfoBalk.html");
 		echo file_get_contents("html/stroFotoBalk.html");
 		echo file_get_contents("html/afstandsbalk20.html");
-		echo file_get_contents("html/meerWetenBalk.html");
 		echo file_get_contents("html/onderTekstBalk.html");
 	}
 }
